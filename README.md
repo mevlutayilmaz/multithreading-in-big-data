@@ -10,8 +10,6 @@ Bu proje, müşteri şikayetleri içeren büyük bir veri setinde benzer kayıtl
 - [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 - [Kurulum](#kurulum)
 - [Kullanım](#kullanım)
-- [Proje Yapısı](#proje-yapısı)
-- [Yazarlar](#yazarlar)
 - [Ekran Görüntüleri](#ekran-görüntüleri)
 
 ## Multithreading
@@ -68,12 +66,12 @@ https://www.kaggle.com/datasets/selener/consumer-complaint-database
 
 4. **Uygulamayı Çalıştırın:**
    Proje dizininde `main.py` dosyasını çalıştırarak uygulamayı başlatın:
-   ```python
+   ```bash
    python main.py
 
 5. **GUI'yi Dönüştürün:**
    Qt Designer ile oluşturulmuş `.ui` dosyasını Python koduna dönüştürün:
-   ```python
+   ```bash
    pyuic5 -o convertGui.py untitled.ui
    ```
 
